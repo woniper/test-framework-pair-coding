@@ -1,0 +1,15 @@
+설명 : 입력 -> 실행 -> 출력
+    - Class Type -> @Test -> @Test fail, success (stdout)
+    - "io.test" -> @Test -> @Test fail, success (stdout)
+    - "io.test.LearJunit,name1"-> @Test -> @Test fail, success (stdout)
+
+1. Class Type을 입력
+1-1. test 대상 class 인지 체크
+
+2. test 대상 class이면, @TBefore
+2-1. @TTest 실행
+2-2. @TAfter 실행
+3. @Test 실행 후 성공 여부 출력
+
+4. package명으로 실행
+5. method명으로 실행
