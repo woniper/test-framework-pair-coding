@@ -5,9 +5,18 @@ package io.test;
  */
 public class TTestDummy {
 
+    @TBefore
+    public void before() {
+
+    }
+
     @TTest
     public void test() {
 
     }
 
+    @TAfter
+    public void after() {
+
+    }
 }
